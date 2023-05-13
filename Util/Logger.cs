@@ -4,7 +4,7 @@
     {
         public static void Log(object? text, bool enter = true)
         {
-            Console.Write(DateTime.Now.ToString("[yyyy-MM-dd HH:mm:ss.fff]") + " - " + text);
+            Console.Write(text);
             if (enter) Console.WriteLine();
         }
 
@@ -17,28 +17,22 @@
             Console.WriteLine();
         }
 
-        public static void LogColor(object text, bool time = true)
+        public static void LogColor(object title,object text)
         {
-            if (time)
-                Console.Write(DateTime.Now.ToString("[yyyy-MM-dd HH:mm:ss.fff]") + " - ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(title);
+            Console.Write(" >>>");
+            Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Cyan;
-            if (time)
-                Console.Write(text);
-            else
-                Console.Write("                            " + text);
+            Console.Write(text);
             Console.ResetColor();
             Console.WriteLine();
         }
 
-        public static void LogWarn(object text, bool time = true)
+        public static void LogWarn(object text)
         {
-            if (time)
-                Console.Write(DateTime.Now.ToString("[yyyy-MM-dd HH:mm:ss.fff]") + " - ");
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            if (time)
-                Console.Write(text);
-            else
-                Console.Write("                            " + text);
+            Console.Write(text);
             Console.ResetColor();
             Console.WriteLine();
         }

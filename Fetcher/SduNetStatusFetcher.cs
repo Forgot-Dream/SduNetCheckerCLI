@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SduNetCheckerCLI.Util;
+﻿using SduNetCheckerCLI.Util;
 
 namespace SduNetCheckerCLI.Fetcher
 {
@@ -19,6 +14,7 @@ namespace SduNetCheckerCLI.Fetcher
                 try
                 {
                     text = await client.GetStringAsync("http://101.76.193.1/cgi-bin/rad_user_info");
+                    text = await client.GetStringAsync("http://[2001:250:5800:11::1]/cgi-bin/rad_user_info");
                 }
                 catch(Exception exception)
                 {
