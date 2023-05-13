@@ -9,8 +9,8 @@
                 var systemInfo = Environment.OSVersion;
                 List<string> infoList = new()
                 {
-                    $"OS Type : {systemInfo.Platform.ToString()}",
-                    $"OS Version : {systemInfo.Version.ToString()}"
+                    $"系统类型 : {systemInfo.Platform}",
+                    $"系统版本 : {systemInfo.Version}"
                 };
                 return infoList;
             });
