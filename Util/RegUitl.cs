@@ -31,30 +31,6 @@ namespace SduNetCheckerCLI.Util
             return def;
         }
 
-        public static void RegWriteValue(string path, string name, object value)
-        {
-            RegistryKey? regKey = null;
-            try
-            {
-                regKey = Registry.CurrentUser.CreateSubKey(path);
-                if (IsNullOrEmpty(value.ToString()))
-                {
-                    regKey?.DeleteValue(name, false);
-                }
-                else
-                {
-                    regKey?.SetValue(name, value);
-                }
-            }
-            catch (Exception ex)
-            {
-                Logger.LogError(ex.Message);
-            }
-            finally
-            {
-                regKey?.Close();
-            }
-        }
 
         public static bool IsNullOrEmpty(string? text)
         {
