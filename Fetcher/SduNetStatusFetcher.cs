@@ -9,7 +9,12 @@ namespace SduNetCheckerCLI.Fetcher
             return await Task.Run(async () =>
             {
                 List<string> data = new();
-                using HttpClient client = new();
+                var httpClientHandler = new HttpClientHandler
+                {
+                    Proxy = null,
+                    UseProxy = false
+                };// 校园网判断请求禁用代理
+                using HttpClient client = new(httpClientHandler);
                 string text;
                 try
                 {

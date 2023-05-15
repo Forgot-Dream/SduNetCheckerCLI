@@ -17,7 +17,7 @@ namespace SduNetCheckerCLI.Fetcher
                         "1" => "开启",
                         "0" => "关闭",
                         "-1" => "获取失败",
-                        _ => string.Empty
+                        _ => "Unknown"
                     };
                     data.Add($"代理状态:{proxyEnabledString}");
                 }
