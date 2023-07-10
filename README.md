@@ -1,16 +1,16 @@
 # SduNetCheckerCLI
 
-## ¸ÅÊö
+## æ¦‚è¿°
 
-ÎªÉ½¶«´óÑ§£¨Çàµº£©¿ª·¢µÄĞ£Ô°Íø¼ì²â¹¤¾ß£¬Ê¹ÓÃ.NET 6ÓëC#¿ª·¢¡£ÍĞ¹ÜÓÚGithub£¬Ê¹ÓÃGithub Action½øĞĞ×Ô¶¯¹¹½¨£¬Äã¿ÉÒÔÔÚ[´Ë´¦](https://github.com/Forgot-Dream/SduNetCheckerCLI/actions)ÕÒµ½×îĞÂµÄ²âÊÔ°æ±¾¹¹½¨¡£
+ä¸ºå±±ä¸œå¤§å­¦ï¼ˆé’å²›ï¼‰å¼€å‘çš„æ ¡å›­ç½‘æ£€æµ‹å·¥å…·ï¼Œä½¿ç”¨.NET 6ä¸C#å¼€å‘ã€‚æ‰˜ç®¡äºGithubï¼Œä½¿ç”¨Github Actionè¿›è¡Œè‡ªåŠ¨æ„å»ºï¼Œä½ å¯ä»¥åœ¨[Github Actions](https://github.com/SDUQD-SNA/SduNetCheckerCLI/actions)æ‰¾åˆ°æœ€æ–°çš„æµ‹è¯•ç‰ˆæœ¬æ„å»ºã€‚
 
-## Ä¿Ç°ÊµÏÖµÄ¹¦ÄÜ
+## ç›®å‰å®ç°çš„åŠŸèƒ½
 
-* [x] »ñÈ¡ÏµÍ³ÀàĞÍºÍ°æ±¾
-* [x] »ñÈ¡Íø¿¨ĞÅÏ¢
-* [x] »ñÈ¡Ğ£Ô°Íø×´Ì¬
-* [x] ÅĞ¶Ï´úÀíÊÇ·ñ¿ªÆô£¨Windows)
+* [x] è·å–ç³»ç»Ÿç±»å‹å’Œç‰ˆæœ¬
+* [x] è·å–ç½‘å¡ä¿¡æ¯
+* [x] è·å–æ ¡å›­ç½‘çŠ¶æ€
+* [x] åˆ¤æ–­ä»£ç†æ˜¯å¦å¼€å¯ï¼ˆWindows)
 
-## ¿ªÔ´Ğ­Òé
+## å¼€æºåè®®
 
-[Forgot-Dream/SduNetCheckerCLI](https://github.com/Forgot-Dream/SduNetCheckerCLI) is licensed under the [GNU General Public License v3.0](https://github.com/Forgot-Dream/SduNetCheckerCLI/blob/master/LICENSE.txt)
+[SDUQD-SNA/SduNetCheckerCLI](https://github.com/SDUQD-SNA/SduNetCheckerCLI) is licensed under the [GNU General Public License v3.0](https://github.com/SDUQD-SNA/SduNetCheckerCLI/blob/master/LICENSE.txt)
